@@ -28,7 +28,7 @@ if prompt := st.chat_input("Ask a question"):
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            token = "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"  # Replace with your Hugging Face token
+            token = "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"  # Replace with your Hugging Face token
 
             if not token or token == "":
                 st.error("Add your Hugging Face token to HF_TOKEN in this file.")
